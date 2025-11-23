@@ -1,0 +1,68 @@
+
+ body {
+    background-color:#000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+.product-box {
+    width: 340px;
+    background-color: #111; 
+    padding: 20px;
+    border-radius: 10px;
+     border: 2px solid #C9A76A;
+    text-align: center;
+    margin: 40px auto; 
+}
+
+/* BMW image */
+.product-box img {
+    width: 260px;        
+    max-width: 100%;     
+    height: auto;        
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    color: #e6e6e6;       
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.product-box h2 {
+    color: #dce3f0; 
+    margin-top: 15px;
+}
+
+
+.description {
+    color: #c9d2e3;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.price {
+    color: #e9f1fe;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+button {
+    background-color: #a2924c; /* BMW Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #e8c98f;
+}
