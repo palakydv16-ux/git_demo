@@ -1,0 +1,45 @@
+body {
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.block-menu a {
+    display: block;
+    background-color: #e8287e;
+    color: white;
+    padding: 12px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.inline-menu a {
+    display: inline;
+    background-color: #379cce;
+    color: white;
+    padding: 6px 12px;
+    margin-right: 6px;
+    text-decoration: none;
+}
+.inline-block-menu a {
+    display: inline-block;
+    background-color: #4ae5b1;
+    color: white;
+    padding: 12px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.float-menu a {
+    float: left;
+    background-color: #8e23a5;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.clear {
+    clear: both;
+}
