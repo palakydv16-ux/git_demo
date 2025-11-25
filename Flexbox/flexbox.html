@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+
+    <body>
+        <h1>FLEXIBLE LAYOUT PLAYGROUND</h1>
+        <div class="container">
+            <div class="box box1">Box 1</div>
+            <div class="box box2">Box 2</div>
+            <div class="box box3">Box 3</div>
+            <div class="box box4">Box 4</div>
+            <div class="box box5">Box 5</div>
+        </div>
+    </body>
+
+     <style>
+        .container{
+           display: flex;
+          /*flex-direction:row-reverse; - item reverse arrange like instead of left to right it become right to left*/
+          flex-direction:row;
+           background-color: #fff;
+           padding: 10px;
+           border: 1px solid#ccc;
+           justify-content:space-around;
+            text-align:center;
+        }
+
+        .box
+        {
+            background-color:rgb(222, 213, 205) ;
+            color: white;
+            padding:40px ;
+            border-radius: 10px;
+        }
+
+        .box1 {background-color: rgb(246, 26, 114);}
+        .box2 {background-color: rgb(78, 142, 220);}
+        .box3 {background-color: rgb(82, 227, 179);}
+        .box4 {background-color: pink;}
+        .box5 {background-color: rgb(157, 255, 108);}
+
+    </style>
+
+</html>
