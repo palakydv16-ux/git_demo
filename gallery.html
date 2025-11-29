@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+<style>
+    body{
+        font-family:Arial;
+        background:#f7f7f7;
+    }
+    h1{
+        text-align:center;
+        margin-top:20px;
+    }
+    .gallery{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        gap:15px;
+        padding:20px;
+    }
+    .gallery img{
+        width:100%;
+        border-radius:10px;
+        transition:0.3s;
+    }
+    .gallery img:hover{
+        transform:scale(1.05);
+    }
+</style>
+</head>
+<body>
+
+<h1>My Gallery</h1>
+<div class="gallery">
+    <img src="https://images.pexels.com/photos/30546857/pexels-photo-30546857.jpeg?cs=srgb&dl=pexels-aida-cervera-234109944-30546857.jpg&fm=jpg">
+    <img src="https://images.stockcake.com/public/e/e/0/ee0c66b8-2fbd-4184-93e7-38bae395dc4e_large/sunset-tulip-field-stockcake.jpg">
+    <img src="https://media.istockphoto.com/id/1172427455/photo/beautiful-sunset-over-the-tropical-sea.webp?b=1&s=612x612&w=0&k=20&c=wr4Yxo5nOKp6TxmyFhvmWw1NzW4RkIoq9lwXa3MzzVE=">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/b0/3b/5f/main-exterior-shot.jpg?w=900&h=500&s=1">
+    <img src="https://vajiramandravi.com/current-affairs/wp-content/uploads/2025/04/thunderstorm.webp">
+    <img src="https://junglecamp.in/uploads/2025/04/which-state-has-the-most-hill-stations-a-practical-guide-for-travel-lovers.webp">
+</div>
+
+</body>
+</html>
