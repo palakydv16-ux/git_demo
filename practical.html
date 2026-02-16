@@ -1,173 +1,85 @@
-<<<<<<< HEAD
+<!DOCTYPE html>
 <html>
 <head>
-<title> College timetable </title>
+    <title>Student Registration Form</title>
+
+ 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        .form-box {
+            width: 350px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 6px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 6px;
+            margin-top: 5px;
+            margin-bottom: 12px;
+        }
+
+        .radio-group {
+            width: auto;
+        }
+
+        input[type="submit"] {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
 </head>
+
 <body>
-<header>
-<h1 align="center"> COLLEGE TIME TABLE <h1>
-</header>
-<table border="1" cellspacing="0">
 
-<caption> Student Timetable - CSE DEPARTMENT</caption>
-<th>
-<tr>
-    <th>Day/Time</th>
-    <th>9:00-10:00</th>
-    <th>10:00-11:00</th>
-    <th>11:00-12:00</th>
-    <th>12:00-01:00</th>
-    <th>01:00-02:00</th>
-    <th>02:00-03:00</th>
-    <th>03:00-04:30</th>
-</tr>
+<div class="form-box">
+    <h2>Student Registration</h2>
 
-<tr>
-<td><b>Monday</b></td>
-<td rowspan="2">Fundamental of linear algebra </td>
-<td>Soft skills</td>
-<td rowspan="3">Mechanics</td>
-<td>Break</td>
-<td colspan="2">Data Structure lab</td>
-<td>Electronics</td>
-</tr>
+    <form>
+        <label>Name</label>
+        <input type="text" required>
 
-<tr>
-    <td><b>Tuesday</b></td>
-    <td>DSA lab</td>
-<td>Break</td>
-    <td colspan="2">Professional communication Lab</td>
-    <td>Soft Skills </td>
-</tr>
+        <label>Email</label>
+        <input type="email" required>
 
-<tr>
-    <td><b>Wednesday</b></td>
-    <td>Fundamental of linear algebra</td>
-    <td>SOFT SKILLS </td>
-    <td>Break</td>
-    <td>Web designing</td>
-    <td colspan="2"><table align="center" border="1" cellspacing="0">
-        <tr><th colspan="2">Mechanical lab</th></tr>
-<tr>
-    <td>Group 1</td>
-<td> BMAE Tutorial</td>
-</tr>
-<tr>
-    <td>Group 2</td>
-    <td>Electronics tutorial</td>
-</tr>
-</table>
-    </td>
-    
-</tr>
+        <label>Password</label>
+        <input type="password" required>
 
-<tr>
-    <td><b>Thursday</b></td>
-    <td colspan="2">WEB DESIGNING Workshop</td>
-    <td>Electronics</td>
-    <td>Break</td>
-    <td>DSA</td>
-    <td>Soft skills </td>
-    <td>Mentor-Mente</td>
-    
-</tr>
+        <label>Gender</label><br>
+        <input type="radio" name="gender" class="radio-group"> Male
+        <input type="radio" name="gender" class="radio-group"> Female
+        <br><br>
 
-<tr>
-    <td><b>Friday</b></td>
-    <td>DSA</td>
-    <td>soft skills </td>
-    <td>BMAE</td>
-    <td>Break</td>
-    <td colspan="3">Electronics lab</td>
-</tr>
-    </table>
-    
+        <label>Course</label>
+        <select>
+            <option>CSE</option>
+            <option>IT</option>
+            <option>ECE</option>
+            <option>ME</option>
+        </select>
+
+        <label>Address</label>
+        <textarea rows="3"></textarea>
+
+<button>Register</button>
+    </form>
+</div>
+
 </body>
 </html>
-=======
-<html>
-<head>
-<title> College timetable </title>
-</head>
-<body>
-<header>
-<h1 align="center"> COLLEGE TIME TABLE <h1>
-</header>
-<table border="1" cellspacing="0">
-
-<caption> Student Timetable - CSE DEPARTMENT</caption>
-<th>
-<tr>
-    <th>Day/Time</th>
-    <th>9:00-10:00</th>
-    <th>10:00-11:00</th>
-    <th>11:00-12:00</th>
-    <th>12:00-01:00</th>
-    <th>01:00-02:00</th>
-    <th>02:00-03:00</th>
-    <th>03:00-04:30</th>
-</tr>
-
-<tr>
-<td><b>Monday</b></td>
-<td rowspan="2">Fundamental of linear algebra </td>
-<td>Soft skills</td>
-<td rowspan="3">Mechanics</td>
-<td>Break</td>
-<td colspan="2">Data Structure lab</td>
-<td>Electronics</td>
-</tr>
-
-<tr>
-    <td><b>Tuesday</b></td>
-    <td>DSA lab</td>
-<td>Break</td>
-    <td colspan="2">Professional communication Lab</td>
-    <td>Soft Skills </td>
-</tr>
-
-<tr>
-    <td><b>Wednesday</b></td>
-    <td>Fundamental of linear algebra</td>
-    <td>SOFT SKILLS </td>
-    <td>Break</td>
-    <td>Web designing</td>
-    <td colspan="2"><table align="center" border="1" cellspacing="0">
-        <tr><th colspan="2">Mechanical lab</th></tr>
-<tr>
-    <td>Group 1</td>
-<td> BMAE Tutorial</td>
-</tr>
-<tr>
-    <td>Group 2</td>
-    <td>Electronics tutorial</td>
-</tr>
-</table>
-    </td>
-    
-</tr>
-
-<tr>
-    <td><b>Thursday</b></td>
-    <td colspan="2">WEB DESIGNING Workshop</td>
-    <td>Electronics</td>
-    <td>Break</td>
-    <td>DSA</td>
-    <td>Soft skills </td>
-    <td>Mentor-Mente</td>
-    
-</tr>
-
-<tr>
-    <td><b>Friday</b></td>
-    <td>DSA</td>
-    <td>soft skills </td>
-    <td>BMAE</td>
-    <td>Break</td>
-    <td colspan="3">Electronics lab</td>
-</tr>
-    </table>
-    
-</body>
-</html>
->>>>>>> e8eb9546ea61ca9baa75776d329ee4550c505994
